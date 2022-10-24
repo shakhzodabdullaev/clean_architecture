@@ -11,7 +11,7 @@ type BookServiceImpl struct {
 }
 
 // this function will create bookService object which represents the BookService Interface
-func NewBookService(bookDataLayer intrface.BookDataLayer) intrface.BookService {
+func NewBookServiceImpl(bookDataLayer intrface.BookDataLayer) intrface.BookService {
 	return &BookServiceImpl{
 		bookDL: bookDataLayer,
 	}

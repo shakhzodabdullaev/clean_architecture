@@ -17,3 +17,7 @@ func NewBookController(echoCtx *echo.Echo, bookServiceObject intrface.BookServic
 
 	echoCtx.GET("/printAuthor", bookControllerObject.printAuthor)
 }
+
+func (book *BookController) printAuthor(ec echo.Context) {
+
+}
