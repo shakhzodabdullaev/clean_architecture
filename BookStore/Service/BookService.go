@@ -17,4 +17,9 @@ func NewBookServiceImpl(bookDataLayer intrface.BookDataLayer) intrface.BookServi
 	}
 }
 
-func (service *BookServiceImpl) PrintBookTitle(ctx context.Context, book *model.Book)
+func (service *BookServiceImpl) PrintBookTitle(ctx context.Context, book *model.Book) {
+
+}
+
+func (service *BookServiceImpl) TestBookService(ctx context.Context) {
+}
